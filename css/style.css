@@ -49,6 +49,10 @@
         height: 40px;
         width: 40px;
     }
+    .navFooter-item a img:hover{
+        height: 42px;
+        width: 42px;
+    }
          /* TERMINA CSS DE FOOTER */
          /* ACA COMIENZA CSS DE INDEX */
     
@@ -82,8 +86,9 @@
         text-decoration: none;
         border-radius: 50px;
         color: #9e56e2;
+        transition: all 1.2s ease;
     }
-    .button:hover{
+    .button:active{
         background-color: #9e56e2;
         color: #ffffff;
     }
@@ -175,7 +180,7 @@
         color: #9e56e2;
         background-color: #ececec;
     }
-    .botones input:hover{
+    .botones input:active{
         background-color: #9e56e2;
         color: #ffffff;
     }
@@ -200,6 +205,7 @@
         align-items: flex-start;
         justify-content: right;
         margin: 1%;
+        transition: all 0.3s;
     }
     .tiendaProducto a{
         font-family: 'Darker Grotesque', sans-serif;
@@ -211,6 +217,9 @@
     .tiendaProducto img{
         width: 100%;
         height: 100%;
+    }
+    .tiendaProducto:active{
+        opacity: 0.5;
     }
     /* TERMINA CSS DE TIENDA */
     /* COMIENZA CSS DE PRODUCTOS */
@@ -358,10 +367,11 @@
         padding-right: 50px;
         text-decoration: none;
         font-family: 'Darker Grotesque', sans-serif;
-        font-size: larger;
+        font-size: 18px;
+        transition: 0.5s;
     }
     .header__NavUl li a:hover{
-        color: rgb(7, 59, 7);
+        font-size: 20px;
     }
         
                 /*ACA TERMINA CSS DE HEADER*/
@@ -404,6 +414,7 @@
         color: #9e56e2;
         text-align: center;
         margin-bottom: 100px;
+        transition: all 1.2s ease;
     }
     .button:hover{
         background-color: #9e56e2;
@@ -476,7 +487,12 @@
         padding-bottom: 50px;
         height: 40px;
         width: 40px;
+        transition: all 0.5s;
         }
+    .navFooter-item a img:hover{
+        height: 42px;
+        width: 42px;
+    }
 
     /* TERMINA CSS DE FOOTER*/  
     /* COMIENZA CSS DE ACERCADEMI */
@@ -557,6 +573,7 @@
             border: none;
             color: #9e56e2;
             background-color: #ececec;
+            transition: 0.75s;
         }
         .botones input:hover{
             background-color: #9e56e2;
@@ -583,6 +600,7 @@
             align-items: flex-start;
             justify-content: right;
             margin: 1%;
+            transition: 1s;
         }
         .tiendaProducto a{
             font-family: 'Darker Grotesque', sans-serif;
@@ -594,6 +612,7 @@
         .tiendaProducto img{
             width: 100%;
             height: 100%;
+            transition: all 0.5s;
         }
         .tiendaProducto.tiendaProducto:hover{
             opacity: 0.5;
