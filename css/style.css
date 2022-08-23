@@ -1,3 +1,11 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
 @media screen and (max-width: 739px){
 
     body{
@@ -335,46 +343,37 @@
         background-color: ffffff;
         font-family:Arial, Helvetica, sans-serif;
     }
-                /* ACA COMIENZA CSS DE HEADER */
-    .header{ 
-        background-color: #ffffff;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 30px;
-        position: sticky;
-        top: 0px;
-    }
-    .header__burgermenu{
-        display: none;
+    /* ACA COMIENZA CSS DE HEADER */
+    .header{
+        grid-area: "header";
     }
     .header__Logo{
         width: 120px;
     }
-    .header__Nav{
-        display: flex;
-        align-items: center;
-        padding-right: 50px;
+    .navbar-nav li{
+        margin-left: 15px;
     }
-    .header__NavUl{
-        list-style-type: none;
+    .navbar-nav li a{
         display: flex;
         flex-direction: row;
-        flex-wrap: no wrap;
-    }
-    .header__NavUl li a{
-        color: rgb(165, 109, 189);
-        padding-right: 50px;
+        justify-content: center;
         text-decoration: none;
         font-family: 'Darker Grotesque', sans-serif;
-        font-size: 18px;
-        transition: 0.5s;
+        font-size: 25px;
+        list-style-type: none;
+        color: #9e56e2;
     }
+    .navbar-nav li a span{
+        margin-top: 9px;
+    }
+
     .header__NavUl li a:hover{
-        font-size: 20px;
+        color: rgb(221, 26, 140);
     }
-        
+
                 /*ACA TERMINA CSS DE HEADER*/
+
+
                 /* ACA COMIENZA CSS DE INDEX */
     .GridGeneral{
         width: 100%;
