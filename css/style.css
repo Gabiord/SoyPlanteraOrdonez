@@ -1,3 +1,5 @@
+/* CSS DE ICONOS */
+
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -6,353 +8,21 @@
   'opsz' 48
 }
 
-@media screen and (max-width: 739px){
-
-    body{
-        font-family:Arial, Helvetica, sans-serif;
-    }
-    
-                /* ACA COMIENZA CSS DE HEADER */
-    .header{ 
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .header__burgermenu{
-        height: 30px;
-        margin-left: 20px;
-    }
-    .header__Logo{
-        width: 120px;
-        margin-right: 20px;
-    }
-    .header__Nav{
-        display: none;
-    }
-                    /*ACA TERMINA CSS DE HEADER*/
-                /* ACA COMIENZA CSS DE FOOTER */
-    .footer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center
-    }               
-    .encabezadoFooter{
-        padding: 20px;
-        font-size: 25px;
-        font-family: 'Darker Grotesque', sans-serif;
-    }
-    .navFooter ul{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-items: center;
-        justify-content: center;
-        list-style-type: none;
-    }
-    .navFooter-item a img{
-        padding-left: 20px;
-        height: 40px;
-        width: 40px;
-    }
-    .navFooter-item a img:hover{
-        height: 42px;
-        width: 42px;
-    }
-         /* TERMINA CSS DE FOOTER */
-         /* ACA COMIENZA CSS DE INDEX */
-    
-    .GridGeneral{
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 120px auto 120px;
-        grid-template-areas: 
-        "header"
-        "main"
-        "footer";
-    }
-    .indexMain1 div{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap-reverse;
-        background-image: url(../images/macetas-tipos-mobile.jpg);
-        background-size: cover;
-    }
-    .indexMain1 h1{
-        padding: 200px 50px 50px 50px;
-        font-size: 35px;
-        font-family: 'Darker Grotesque', sans-serif;
-        color: #ffffff;
-    }
-    .button{
-        padding: 30px 50px 20px 50px;
-        margin: 50px 0px 200px 0px;
-        background-color: #ffffff;
-        text-decoration: none;
-        border-radius: 50px;
-        color: #9e56e2;
-        transition: all 1.2s ease;
-    }
-    .button:active{
-        background-color: #9e56e2;
-        color: #ffffff;
-    }
-    .indexMain2a{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-    }
-    .indexMain3a, .indexMain3b, .indexMain3c{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    }
-    .titulos{
-        font-family: 'Darker Grotesque', sans-serif;
-        font-size: 30px;
-        padding: 20px;
-    }
-    .parrafos{
-        font-family: 'Darker Grotesque', sans-serif;
-        font-size: 18px;
-        text-align: center;
-        padding: 10px;
-    }
-    .indexEmojis{
-        height: 80px;
-        width: 80px;
-        padding: 20px;
-    }
-        /* ACA TERMINA CSS DE INDEX */
-        /* COMIENZA CSS DE ACERCADEMI */
-
-    .mainAcerca{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-content: space-around;
-        justify-items: center;
-    }    
-    .mainAcerca2{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    } 
-    .imgAcerca{
-        width: 100%;
-    }
-         /* TERMINA CSS DE ACERCADEMI */
-        /* COMIENZA CSS DE CONTACTO */
-
-    .formContacto form{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-    }
-    .datos{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: space-between;
-        width: 90%;
-    }
-    .datos input, textarea{
-        margin: 10px;
-        padding: 5px;
-        background-color: #ececec;
-        border: none;
-    }
-    ::placeholder{
-        font-family: Arial, Helvetica, sans-serif;
-        color: #9e56e2;
-        font-size: 15px;   
-    }
-    .imgContacto{
-        display: none;
-    }
-    .botones input{
-        margin: 20px;
-        padding: 10px;
-        border-radius: 30px;
-        border: none;
-        color: #9e56e2;
-        background-color: #ececec;
-    }
-    .botones input:active{
-        background-color: #9e56e2;
-        color: #ffffff;
-    }
-
-    /* TERMINA CSS DE CONTACTO */
-    /* COMIENZA CSS DE TIENDA */
-    .tienda{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .productos{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        
-    }
-    .tiendaProducto{
-        width: 48%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: right;
-        margin: 1%;
-        transition: all 0.3s;
-    }
-    .tiendaProducto a{
-        font-family: 'Darker Grotesque', sans-serif;
-        font-size: 18px;
-        text-decoration: none;
-        color: #1f6e09;
-        text-align: left;
-    }
-    .tiendaProducto img{
-        width: 100%;
-        height: 100%;
-    }
-    .tiendaProducto:active{
-        opacity: 0.5;
-    }
-    /* TERMINA CSS DE TIENDA */
-    /* COMIENZA CSS DE PRODUCTOS */
-    .productoDatos{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-    }
-    .productoDatos img{
-        width: 100%;
-    }
-    .productoDatos h1, h2{
-        font-family: 'Darker Grotesque', sans-serif;
-        font-size: 30px;
-    }
-
-}
-
-/* @media screen and (max-width:1023px) and (min-width:481px) {
-
-    Futuro CSS DE TABLET
-  
-  
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 740px) {
-        
+/* CSS DE ICONOS */
+      
     body{
         background-color: ffffff;
         font-family:Arial, Helvetica, sans-serif;
     }
+
+
+
     /* ACA COMIENZA CSS DE HEADER */
-    .header{
-        grid-area: "header";
-    }
+
     .header__Logo{
         width: 120px;
     }
-    .navbar-nav li{
-        margin-left: 15px;
-    }
+
     .navbar-nav li a{
         display: flex;
         flex-direction: row;
@@ -367,24 +37,33 @@
         margin-top: 9px;
     }
 
-    .header__NavUl li a:hover{
-        color: rgb(221, 26, 140);
+    .navbar-nav li a:hover{
+        color: rgb(46, 26, 221);
     }
 
-                /*ACA TERMINA CSS DE HEADER*/
+    /*ACA TERMINA CSS DE HEADER*/
 
 
-                /* ACA COMIENZA CSS DE INDEX */
-    .GridGeneral{
-        width: 100%;
-        display: grid;
-        grid-area:
-        "header"
-        "main"
-        "footer" ;
-        grid-template-columns: 100%;
-        grid-template-rows: 120px auto 120px;
+
+    /* ACA COMIENZA CSS DE INDEX */
+
+
+ @media screen and (min-width: 768px){
+
+    .indexMain2 div{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 50px 50px 50px;
     }
+
+ }
+ @media screen and (max-width: 767px) {
+    .indexMain2 div{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 50px 50px 50px;
+    }
+ }
 
     .indexMain1 div{
         background-image: url(../images/macetas-tipos.jpg);
@@ -419,33 +98,28 @@
         background-color: #9e56e2;
         color: #ffffff;
     }
+
+    
     .indexMain2 div{
-        grid-area: "indexMain2";
         display: flex;
-        padding: 50px 50px 50px 50px;
-
-    }
-    .indexMain3{
-        grid-area: "indexMain3";
-        display: flex;
-        flex-direction: row;
         flex-wrap: nowrap;
+        padding: 50px 50px 50px 50px;
     }
 
-    .indexMain3a .indexMain3b .indexMain3c {
+    .indexMain3{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: center;
-    margin: 30px;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 50px;
     }
 
     .titulos{
         font-family: 'Darker Grotesque', sans-serif;
-        font-size: 50px;
         padding: 20px;
         width: 100%;
+        align-content: center;
     }
     .parrafos{
         font-family: 'Darker Grotesque', sans-serif;
@@ -459,6 +133,12 @@
         padding: 0px;
     }
     /* ACA TERMINA CSS DE INDEX */
+
+
+
+
+
+
     /* ACA COMIENZA CSS DE FOOTER */
     .footer{
         grid-area: "footer";
