@@ -119,7 +119,7 @@
         font-family: 'Darker Grotesque', sans-serif;
         padding: 20px;
         width: 100%;
-        align-content: center;
+        text-align: center;
     }
     .parrafos{
         font-family: 'Darker Grotesque', sans-serif;
@@ -141,13 +141,11 @@
 
     /* ACA COMIENZA CSS DE FOOTER */
     .footer{
-        grid-area: "footer";
-        background-color: #ffffff;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center
-        }                                           
+        align-items: stretch;
+    }
+    
     .encabezadoFooter{
         padding: 20px;
         font-size: 25px;
@@ -162,11 +160,10 @@
         list-style-type: none;
         }
     .navFooter-item a img{
-        padding-left: 50px;
-        padding-bottom: 50px;
         height: 40px;
         width: 40px;
-        transition: all 0.5s;
+        margin: 0px 10px 0px 10px;
+        transition: all 0.2s;
         }
     .navFooter-item a img:hover{
         height: 42px;
@@ -319,5 +316,3 @@
             font-family: 'Darker Grotesque', sans-serif;
             font-size: 40px;
         }
-    }    
-    
