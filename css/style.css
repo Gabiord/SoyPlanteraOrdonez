@@ -10,10 +10,18 @@
 
 /* CSS DE ICONOS */
       
+
+
+
+
     body{
         background-color: ffffff;
         font-family:Arial, Helvetica, sans-serif;
     }
+
+
+
+
 
 
 
@@ -45,6 +53,11 @@
 
 
 
+
+
+
+
+
     /* ACA COMIENZA CSS DE INDEX */
 
 
@@ -55,8 +68,8 @@
         flex-wrap: wrap;
         padding: 50px 50px 50px 50px;
     }
-
  }
+
  @media screen and (max-width: 767px) {
     .indexMain2 div{
         display: flex;
@@ -99,7 +112,6 @@
         color: #ffffff;
     }
 
-    
     .indexMain2 div{
         display: flex;
         flex-wrap: nowrap;
@@ -139,6 +151,11 @@
 
 
 
+
+
+
+
+
     /* ACA COMIENZA CSS DE FOOTER */
     .footer{
         display: flex;
@@ -171,38 +188,48 @@
     }
 
     /* TERMINA CSS DE FOOTER*/  
+
+
+
+
+
+
+
+
+
     /* COMIENZA CSS DE ACERCADEMI */
 
-        .main{
-            grid-area: "mainAcerca";
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            
-        }    
-        .mainAcerca1{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 30px;
-        }
-        .mainAcerca1 img{
-            width: 49%;
-            border-radius: 30px;
-        }
-        .mainAcerca1 label{
-            width: 49%;
-        }
-        .mainAcerca2{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding-left: 100px;
-        } 
+    @media screen and (min-width: 768px){
+     
+    .mainAcerca2{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 100px;
+    } 
+    }
+    @media screen and (max-width: 767px) {
+    .mainAcerca2{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }  
+    }
+    
+/* TERMINA CSS DE ACERCADEMI */
+    
 
-             /* TERMINA CSS DE ACERCADEMI */
-            /* COMIENZA CSS DE CONTACTO */
+
+
+
+
+
+
+
+
+/* COMIENZA CSS DE CONTACTO */
     
         .mainContacto{
             display: flex;
