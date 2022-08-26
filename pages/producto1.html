@@ -19,7 +19,7 @@
     <header class="container-fluid">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="col-7" href="../index.html"><img class="header__Logo" src="../images/WatercolorLogo.png" alt="logo"/></a>
+                <a class="col-8" href="../index.html"><img class="header__Logo" src="../images/WatercolorLogo.png" alt="logo"/></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -47,15 +47,42 @@
             </div>
         </nav>
     </header>  
-    <main class="main"> 
-        <section class="productoDatos">
-            <img src="../images/5ce512c4717d5aacc4af9159af562e57ab206490_original.jpeg" alt="Maceta de Gatito">
-            <div class="datos botones">
+    <main class="container-fluid"> 
+        <section class="row">
+            <aside class="col-md-6 col-sm-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../images/5ce512c4717d5aacc4af9159af562e57ab206490_original.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/2dd00c219aca97d1ec7de20dd587e6d3651ea48e_original.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/a0b91bf3f9d824d7807287577d05b3d86f828d28_original.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </aside>
+            <aside class="col-md-6 col-sm-12 producto botones">
                 <h1>Maceta de Gatito</h1>
                 <h2>$ 800</h2>
                 <label class="parrafos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla non aspernatur quae sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aperiam praesentium suscipit vero autem alias molestiae, nemo pariatur deserunt explicabo excepturi ipsa quibusdam rerum in sint ea doloribus dolore officiis.</label>
                 <input type="button" value="Comprar">
-            </div>
+            </aside>
         </section>        
     </main>    
     <footer class="container-fluid">
