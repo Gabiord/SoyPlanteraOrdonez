@@ -240,24 +240,20 @@
   text-decoration: none;
   color: #8f0cac;
   text-align: left;
+  overflow: hidden;
 }
 .tiendaProducto a img {
   width: 100%;
   height: 100%;
   transition: all 0.5s;
 }
-.tiendaProducto:hover {
+.tiendaProducto a img:hover {
+  transform: scale(1.2);
+}
+.tiendaProducto a img:active {
   opacity: 0.5;
 }
 
-@media screen and (max-width: 768px) {
-  .tiendaProducto:hover {
-    opacity: 1;
-  }
-  .tiendaProducto:active {
-    opacity: 0.5;
-  }
-}
 /* MAIN DE TIENDA */
 /* MAIN DE PRODUCTOS */
 .producto {

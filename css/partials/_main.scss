@@ -25,7 +25,7 @@
     height: 25px;
     width: 200px;
     padding-bottom: 20px;
-    background-color: #ffffff;
+    background-color: $colorsecundario;
     text-decoration: none;
     border-radius: 50px;
     color: $colorprincipal;
@@ -53,18 +53,20 @@ justify-content: center;
 justify-items: center;
 margin-bottom: 50px;
 }
+
 .titulos{
-    font-family: 'Darker Grotesque', sans-serif;
+    font-family: $fuenteprincipal;
     padding: 20px;
     width: 100%;
     text-align: center;
 }
 .parrafos{
-    font-family: 'Darker Grotesque', sans-serif;
+    font-family: $fuenteprincipal;
     font-size: 20px;
     text-align: center;
     padding: 10px;
 }
+
 .indexEmojis{
     height: 50px;
     width: 50px;
