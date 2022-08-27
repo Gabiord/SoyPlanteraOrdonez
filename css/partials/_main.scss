@@ -1,0 +1,94 @@
+
+/*MAIN DE INDEX */
+
+.indexMain1{
+    div{
+        background-image: url(../images/macetas-tipos.jpg);
+        background-size: cover;
+        grid-area: "indexMain1";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            padding: 200px 200px 100px 200px;
+            font-size: 60px;
+            font-family: $fuenteprincipal;
+            font-weight: 2000;
+            color: $colorsecundario;
+            text-align: center;
+        }
+
+    }
+}    
+
+.button{
+    height: 25px;
+    width: 200px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #9e56e2;
+    text-align: center;
+    margin-bottom: 200px;
+    transition: all 1.2s ease;
+    &:hover{
+        background-color: #9e56e2;
+        color: #ffffff;        
+    }
+}
+
+.indexMain2{
+    div{
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 50px 50px 50px 50px;
+    }
+}    
+.indexMain3{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+justify-items: center;
+margin-bottom: 50px;
+}
+.titulos{
+    font-family: 'Darker Grotesque', sans-serif;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+.parrafos{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.indexEmojis{
+    height: 50px;
+    width: 50px;
+    padding: 0px;
+}
+
+@media screen and (min-width: 768px){
+    .indexMain2{
+        div{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 50px 50px 50px 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .indexMain2{ 
+        div{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 50px 50px 50px;
+        }
+    }    
+}
+
+/* MAIN DE INDEX */

@@ -1,0 +1,55 @@
+/* MAIN DE CONTACTO */
+    
+.formContacto{
+    form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    width: 90%;
+    input, textarea{
+        margin: 15px;
+        padding: 10px;
+        background-color: $colorformulario;
+        border: none;
+    }
+}
+
+::placeholder{
+    font-family: $fuentesecundaria;
+    color: $colorprincipal;
+    font-size: 18px;   
+}
+.botones{
+    input{
+        margin: 20px;
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+        color: $colorprincipal;
+        background-color: #ececec;
+        transition: 0.75s;
+        &:hover{
+            background-color: $colorprincipal;
+            color: $colorsecundario;
+        }
+    }
+}    
+
+@media screen and (max-width: 768px) {
+    ::placeholder{
+        font-family: $fuentesecundaria;
+        color: $colorprincipal;
+        font-size: 15px;  
+    }
+}
+/* MAIN DE CONTACTO */

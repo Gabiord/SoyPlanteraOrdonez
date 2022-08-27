@@ -1,0 +1,39 @@
+/* MAIN DE TIENDA */
+
+.tiendaProducto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: right;
+    transition: 1s;
+    a{
+        font-family: $fuenteprincipal;
+        font-size: 22px;
+        text-decoration: none;
+        color: $colorprincipal;
+        text-align: left;
+        img{
+            width: 100%;
+            height: 100%;
+            transition: all 0.5s;
+
+        }
+    }
+    &:hover{
+        opacity: 0.5;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .tiendaProducto:hover{
+        opacity: 1;
+    } 
+
+    .tiendaProducto:active{
+        opacity: 0.5;
+    }
+
+}
+/* MAIN DE TIENDA */

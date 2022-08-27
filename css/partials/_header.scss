@@ -1,0 +1,25 @@
+  /*HEADER */
+  
+.header__Logo{
+  width: 120px;
+  }
+  
+.navbar-nav{ 
+  li{
+    a{
+      span{
+        margin-top: 9px;
+          }
+      text-decoration: none;
+      font-family: $fuenteprincipal;
+      font-size: 20px;
+      list-style-type: none;
+      color: $colorprincipal;
+      &:hover{
+            color: $colorhover;
+      }
+    }
+  }     
+}
+    
+    /*HEADER*/
