@@ -1,0 +1,16 @@
+.botones{
+    input{
+        font-size: 20px;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+        color: $colorprincipal;
+        background-color: $colorformulario;
+        transition: 0.75s;
+        &:hover{
+            background-color: $colorprincipal;
+            color: $colorsecundario;
+        }
+    }
+}    

@@ -1,0 +1,23 @@
+/* MAIN DE ACERCADEMI */
+    
+@media screen and (min-width: 768px){
+    .mainAcerca2{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 100px;
+        }
+}
+
+@media screen and (max-width: 767px) {
+    .mainAcerca2{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }  
+}
+/* MAIN DE ACERCADEMI */
+        
+    

@@ -1,0 +1,30 @@
+/* MAIN DE TIENDA */
+
+.tiendaProducto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: right;
+    transition: 1s;
+    a{
+        font-family: $fuenteprincipal;
+        font-size: 22px;
+        text-decoration: none;
+        color: $colorprincipal;
+        text-align: left;
+        overflow: hidden;
+    
+        img{
+            width: 100%;
+            height: 100%;
+            transition: all 0.5s;
+            &:hover{
+                transform: scale(1.2);
+            }
+            &:active{
+                opacity: 0.5;
+            }
+        } 
+    }
+}
+/* MAIN DE TIENDA */
