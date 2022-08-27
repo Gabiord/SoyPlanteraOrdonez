@@ -19,13 +19,13 @@
   font-family: "Darker Grotesque", sans-serif;
   font-size: 20px;
   list-style-type: none;
-  color: #9e56e2;
+  color: #8f0cac;
 }
 .navbar-nav li a span {
   margin-top: 9px;
 }
 .navbar-nav li a:hover {
-  color: #145f98;
+  color: #399814;
 }
 
 /*HEADER*/
@@ -88,13 +88,13 @@
   background-color: #ffffff;
   text-decoration: none;
   border-radius: 50px;
-  color: #9e56e2;
+  color: #8f0cac;
   text-align: center;
   margin-bottom: 200px;
   transition: all 1.2s ease;
 }
 .button:hover {
-  background-color: #9e56e2;
+  background-color: #8f0cac;
   color: #ffffff;
 }
 
@@ -192,50 +192,36 @@
 
 ::-moz-placeholder {
   font-family: Arial, Helvetica, sans-serif;
-  color: #9e56e2;
+  color: #8f0cac;
   font-size: 18px;
 }
 
 :-ms-input-placeholder {
   font-family: Arial, Helvetica, sans-serif;
-  color: #9e56e2;
+  color: #8f0cac;
   font-size: 18px;
 }
 
 ::placeholder {
   font-family: Arial, Helvetica, sans-serif;
-  color: #9e56e2;
+  color: #8f0cac;
   font-size: 18px;
-}
-
-.botones input {
-  margin: 20px;
-  padding: 10px;
-  border-radius: 30px;
-  border: none;
-  color: #9e56e2;
-  background-color: #ececec;
-  transition: 0.75s;
-}
-.botones input:hover {
-  background-color: #9e56e2;
-  color: #ffffff;
 }
 
 @media screen and (max-width: 768px) {
   ::-moz-placeholder {
     font-family: Arial, Helvetica, sans-serif;
-    color: #9e56e2;
+    color: #8f0cac;
     font-size: 15px;
   }
   :-ms-input-placeholder {
     font-family: Arial, Helvetica, sans-serif;
-    color: #9e56e2;
+    color: #8f0cac;
     font-size: 15px;
   }
   ::placeholder {
     font-family: Arial, Helvetica, sans-serif;
-    color: #9e56e2;
+    color: #8f0cac;
     font-size: 15px;
   }
 }
@@ -252,7 +238,7 @@
   font-family: "Darker Grotesque", sans-serif;
   font-size: 22px;
   text-decoration: none;
-  color: #9e56e2;
+  color: #8f0cac;
   text-align: left;
 }
 .tiendaProducto a img {
@@ -284,4 +270,18 @@
   align-items: stretch;
 }
 
-/* MAIN DE PRODUCTOS *//*# sourceMappingURL=styles.css.map */
+/* MAIN DE PRODUCTOS */
+.botones input {
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  color: #8f0cac;
+  background-color: #ececec;
+  transition: 0.75s;
+}
+.botones input:hover {
+  background-color: #8f0cac;
+  color: #ffffff;
+}/*# sourceMappingURL=styles.css.map */

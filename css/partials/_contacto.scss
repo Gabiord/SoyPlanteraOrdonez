@@ -29,21 +29,6 @@
     color: $colorprincipal;
     font-size: 18px;   
 }
-.botones{
-    input{
-        margin: 20px;
-        padding: 10px;
-        border-radius: 30px;
-        border: none;
-        color: $colorprincipal;
-        background-color: #ececec;
-        transition: 0.75s;
-        &:hover{
-            background-color: $colorprincipal;
-            color: $colorsecundario;
-        }
-    }
-}    
 
 @media screen and (max-width: 768px) {
     ::placeholder{
