@@ -19,7 +19,7 @@
   font-family: "Darker Grotesque", sans-serif;
   font-size: 20px;
   list-style-type: none;
-  color: #8f0cac;
+  color: #970cac;
 }
 .navbar-nav li a span {
   margin-top: 9px;
@@ -88,13 +88,13 @@
   background-color: #ffffff;
   text-decoration: none;
   border-radius: 50px;
-  color: #8f0cac;
+  color: #970cac;
   text-align: center;
   margin-bottom: 200px;
   transition: all 1.2s ease;
 }
 .button:hover {
-  background-color: #8f0cac;
+  background-color: #970cac;
   color: #ffffff;
 }
 
@@ -192,36 +192,36 @@
 
 ::-moz-placeholder {
   font-family: Arial, Helvetica, sans-serif;
-  color: #8f0cac;
+  color: #970cac;
   font-size: 18px;
 }
 
 :-ms-input-placeholder {
   font-family: Arial, Helvetica, sans-serif;
-  color: #8f0cac;
+  color: #970cac;
   font-size: 18px;
 }
 
 ::placeholder {
   font-family: Arial, Helvetica, sans-serif;
-  color: #8f0cac;
+  color: #970cac;
   font-size: 18px;
 }
 
 @media screen and (max-width: 768px) {
   ::-moz-placeholder {
     font-family: Arial, Helvetica, sans-serif;
-    color: #8f0cac;
+    color: #970cac;
     font-size: 15px;
   }
   :-ms-input-placeholder {
     font-family: Arial, Helvetica, sans-serif;
-    color: #8f0cac;
+    color: #970cac;
     font-size: 15px;
   }
   ::placeholder {
     font-family: Arial, Helvetica, sans-serif;
-    color: #8f0cac;
+    color: #970cac;
     font-size: 15px;
   }
 }
@@ -234,23 +234,26 @@
   justify-content: right;
   transition: 1s;
 }
-.tiendaProducto a {
+.tiendaProducto ul li {
+  list-style-type: none;
+  overflow: hidden;
+}
+.tiendaProducto ul li a {
   font-family: "Darker Grotesque", sans-serif;
   font-size: 22px;
   text-decoration: none;
-  color: #8f0cac;
+  color: #970cac;
   text-align: left;
-  overflow: hidden;
 }
-.tiendaProducto a img {
+.tiendaProducto ul li a img {
   width: 100%;
   height: 100%;
   transition: all 0.5s;
 }
-.tiendaProducto a img:hover {
+.tiendaProducto ul li a img:hover {
   transform: scale(1.2);
 }
-.tiendaProducto a img:active {
+.tiendaProducto ul li a img:active {
   opacity: 0.5;
 }
 
@@ -273,11 +276,11 @@
   padding: 10px;
   border-radius: 30px;
   border: none;
-  color: #8f0cac;
+  color: #970cac;
   background-color: #ececec;
   transition: 0.75s;
 }
 .botones input:hover {
-  background-color: #8f0cac;
-  color: #ffffff;
+  background-color: #970cac;
+  color: #ececec;
 }/*# sourceMappingURL=styles.css.map */
