@@ -5,12 +5,12 @@
         padding: 10px;
         border-radius: 30px;
         border: none;
-        color: $colorprincipal;
-        background-color: $colorformulario;
+        color: map-get($colors , colorprincipal);
+        background-color: map-get($colors,colorformulario);
         transition: 0.75s;
         &:hover{
-            background-color: $colorprincipal;
-            color: $colorformulario;
+            background-color: map-get($colors,colorprincipal);
+            color: map-get($colors,colorformulario);
         }
     }
 }    

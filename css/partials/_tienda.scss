@@ -14,7 +14,7 @@
                 font-family: $fuenteprincipal;
                 font-size: 22px;
                 text-decoration: none;
-                color: $colorprincipal;
+                color: map-get($colors, colorprincipal);
                 text-align: left;
                 
                 

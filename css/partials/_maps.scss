@@ -5,8 +5,11 @@ $fuentesecundaria: Arial, Helvetica, sans-serif;
 
 //PALETA DE COLORES
 
-$colorformulario: #ececec;
-$colorprincipal: #c118d1;
-$colorsecundario: #ffffff;
-$colorhover: #399814;
+$colors: (
+    colorformulario: #ececec,
+    colorprincipal: #c118d1,
+    colorsecundario: #ffffff,
+    colorhover: #399814,
+)
+
 
