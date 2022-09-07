@@ -1,11 +1,9 @@
 /* MAIN DE TIENDA */
 
 .tiendaProducto{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: left;
+    @extend %flexColumn;
     transition: 1s;
+    margin-left: -7px;
     ul{
         li{
             list-style-type: none;

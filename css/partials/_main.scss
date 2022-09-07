@@ -6,8 +6,7 @@
         background-image: url(../images/macetas-tipos.jpg);
         background-size: cover;
         grid-area: "indexMain1";
-        display: flex;
-        flex-direction: column;
+        @extend %flexColumn;
         align-items: center;
         h1{
             margin: 100px 0px 100px 0px;
@@ -45,10 +44,8 @@
     }
 }    
 .indexMain3{
-display: flex;
-flex-direction: row;
+@extend %flexRow;
 flex-wrap: wrap;
-justify-content: center;
 justify-items: center;
 margin-bottom: 50px;
 }

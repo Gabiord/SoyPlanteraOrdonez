@@ -2,18 +2,15 @@
     
 .formContacto{
     form{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
+    @extend %flexColumn;
     align-items: center;
+    flex-wrap: nowrap;
+
     }
 }
 
 .datos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @extend %flexColumn;
     align-content: space-between;
     width: 90%;
     input, textarea{
