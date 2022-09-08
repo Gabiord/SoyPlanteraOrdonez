@@ -1,16 +1,11 @@
-.botones{
-    input{
-        font-size: 20px;
-        margin: 20px;
-        padding: 10px;
-        border-radius: 30px;
-        border: none;
-        color: map-get($colors , colorprincipal);
-        background-color: map-get($colors,colorformulario);
-        transition: 0.75s;
-        &:hover{
-            background-color: map-get($colors,colorprincipal);
-            color: map-get($colors,colorformulario);
-        }
-    }
+.botonesContacto{
+    @include button (45px,100px,25px)
 }    
+
+.botonMain{
+    @include button(50px, 200px, 25px,true);
+}
+
+.botonComprar{
+    @include button(45px, auto, 25px);
+}
