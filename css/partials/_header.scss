@@ -14,9 +14,9 @@
       font-family: $fuenteprincipal;
       font-size: 20px;
       list-style-type: none;
-      color: $colorprincipal;
+      color: map-get($colors, colorprincipal);
       &:hover{
-            color: $colorhover;
+            color: map-get($colors, colorhover);
       }
     }
   }     

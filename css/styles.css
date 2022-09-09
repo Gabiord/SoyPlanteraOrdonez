@@ -1,3 +1,15 @@
+.indexMain3, .navFooter ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.producto, .tiendaProducto, .datos, .formContacto form, .indexMain1 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -19,7 +31,7 @@
   font-family: "Darker Grotesque", sans-serif;
   font-size: 20px;
   list-style-type: none;
-  color: #8f0cac;
+  color: #45024f;
 }
 .navbar-nav li a span {
   margin-top: 9px;
@@ -43,11 +55,8 @@
 }
 
 .navFooter ul {
-  display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
   list-style-type: none;
 }
 
@@ -68,34 +77,14 @@
   background-image: url(../images/macetas-tipos.jpg);
   background-size: cover;
   grid-area: "indexMain1";
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 .indexMain1 div h1 {
-  padding: 200px 200px 100px 200px;
-  font-size: 60px;
+  margin: 100px 0px 100px 0px;
   font-family: "Darker Grotesque", sans-serif;
   font-weight: 2000;
-  color: #ffffff;
+  color: #efefef;
   text-align: center;
-}
-
-.button {
-  height: 25px;
-  width: 200px;
-  padding-bottom: 20px;
-  background-color: #ffffff;
-  text-decoration: none;
-  border-radius: 50px;
-  color: #8f0cac;
-  text-align: center;
-  margin-bottom: 200px;
-  transition: all 1.2s ease;
-}
-.button:hover {
-  background-color: #8f0cac;
-  color: #ffffff;
 }
 
 .indexMain2 div {
@@ -105,10 +94,7 @@
 }
 
 .indexMain3 {
-  display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
   justify-items: center;
   margin-bottom: 50px;
 }
@@ -169,17 +155,11 @@
 /* MAIN DE ACERCADEMI */
 /* MAIN DE CONTACTO */
 .formContacto form {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 .datos {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-content: space-between;
   width: 90%;
 }
@@ -191,66 +171,66 @@
 }
 
 ::-moz-placeholder {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #8f0cac;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #45024f;
   font-size: 18px;
 }
 
 :-ms-input-placeholder {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #8f0cac;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #45024f;
   font-size: 18px;
 }
 
 ::placeholder {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #8f0cac;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #45024f;
   font-size: 18px;
 }
 
 @media screen and (max-width: 768px) {
   ::-moz-placeholder {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #8f0cac;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: #45024f;
     font-size: 15px;
   }
   :-ms-input-placeholder {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #8f0cac;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: #45024f;
     font-size: 15px;
   }
   ::placeholder {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #8f0cac;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: #45024f;
     font-size: 15px;
   }
 }
 /* MAIN DE CONTACTO */
 /* MAIN DE TIENDA */
 .tiendaProducto {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: right;
   transition: 1s;
+  margin-left: -7px;
 }
-.tiendaProducto a {
+.tiendaProducto ul li {
+  list-style-type: none;
+  overflow: hidden;
+}
+.tiendaProducto ul li a {
   font-family: "Darker Grotesque", sans-serif;
   font-size: 22px;
   text-decoration: none;
-  color: #8f0cac;
+  color: #45024f;
   text-align: left;
-  overflow: hidden;
 }
-.tiendaProducto a img {
+.tiendaProducto ul li a img {
   width: 100%;
   height: 100%;
   transition: all 0.5s;
 }
-.tiendaProducto a img:hover {
+.tiendaProducto ul li a img:hover {
   transform: scale(1.2);
 }
-.tiendaProducto a img:active {
+.tiendaProducto ul li a img:active {
   opacity: 0.5;
 }
 
@@ -260,24 +240,60 @@
   text-align: left;
   font-family: "Darker Grotesque", sans-serif;
   margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: stretch;
 }
 
 /* MAIN DE PRODUCTOS */
-.botones input {
-  font-size: 20px;
-  margin: 20px;
-  padding: 10px;
-  border-radius: 30px;
+.botonesContacto {
   border: none;
-  color: #8f0cac;
-  background-color: #ececec;
-  transition: 0.75s;
+  height: 45px;
+  width: 100px;
+  background-color: #efefef;
+  border-radius: 50px;
+  color: #45024f;
+  text-align: center;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 25px;
+  margin-bottom: 0px;
+  transition: all 0.8s ease;
 }
-.botones input:hover {
-  background-color: #8f0cac;
-  color: #ffffff;
+.botonesContacto:hover {
+  background-color: #45024f;
+  color: #efefef;
+}
+
+.botonMain {
+  border: none;
+  height: 50px;
+  width: 200px;
+  background-color: #efefef;
+  border-radius: 50px;
+  color: #45024f;
+  text-align: center;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 25px;
+  margin-bottom: 150px;
+  transition: all 0.8s ease;
+}
+.botonMain:hover {
+  background-color: #45024f;
+  color: #efefef;
+}
+
+.botonComprar {
+  border: none;
+  height: 45px;
+  width: auto;
+  background-color: #efefef;
+  border-radius: 50px;
+  color: #45024f;
+  text-align: center;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 25px;
+  margin-bottom: 0px;
+  transition: all 0.8s ease;
+}
+.botonComprar:hover {
+  background-color: #45024f;
+  color: #efefef;
 }/*# sourceMappingURL=styles.css.map */
