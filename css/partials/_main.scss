@@ -21,9 +21,9 @@
 
 .indexMain2{
     div{
-        display: flex;
-        flex-wrap: nowrap;
-        padding: 50px 50px 50px 50px;
+        @extend %flexRow;
+        justify-content: space-around;
+        align-items: center;
     }
 }    
 .indexMain3{
@@ -36,7 +36,7 @@ margin-bottom: 50px;
 .titulos{
     font-family: $fuenteprincipal;
     padding: 20px;
-    width: 100%;
+    width: auto;
     text-align: center;
 }
 .parrafos{
