@@ -26,7 +26,7 @@
   font-family: "Darker Grotesque", sans-serif;
   font-size: 20px;
   list-style-type: none;
-  color: #03024f;
+  color: #5b0b83;
 }
 .navbar-nav li a span {
   margin-top: 9px;
@@ -160,36 +160,36 @@
 
 ::-moz-placeholder {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #03024f;
+  color: #5b0b83;
   font-size: 18px;
 }
 
 :-ms-input-placeholder {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #03024f;
+  color: #5b0b83;
   font-size: 18px;
 }
 
 ::placeholder {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #03024f;
+  color: #5b0b83;
   font-size: 18px;
 }
 
 @media screen and (max-width: 768px) {
   ::-moz-placeholder {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    color: #03024f;
+    color: #5b0b83;
     font-size: 15px;
   }
   :-ms-input-placeholder {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    color: #03024f;
+    color: #5b0b83;
     font-size: 15px;
   }
   ::placeholder {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    color: #03024f;
+    color: #5b0b83;
     font-size: 15px;
   }
 }
@@ -207,7 +207,7 @@
   font-family: "Darker Grotesque", sans-serif;
   font-size: 22px;
   text-decoration: none;
-  color: #03024f;
+  color: #5b0b83;
   text-align: left;
 }
 .tiendaProducto ul li a img {
@@ -220,6 +220,11 @@
 }
 .tiendaProducto ul li a img:active {
   opacity: 0.5;
+}
+
+.description {
+  list-style-type: none;
+  font-size: 20px;
 }
 
 /* MAIN DE TIENDA */
@@ -238,7 +243,7 @@
   width: 100px;
   background-color: #efefef;
   border-radius: 50px;
-  color: #03024f;
+  color: #5b0b83;
   text-align: center;
   font-family: "Darker Grotesque", sans-serif;
   font-size: 25px;
@@ -246,7 +251,7 @@
   transition: all 0.8s ease;
 }
 .botonesContacto:hover {
-  background-color: #03024f;
+  background-color: #5b0b83;
   color: #efefef;
 }
 
@@ -256,7 +261,7 @@
   width: 200px;
   background-color: #efefef;
   border-radius: 50px;
-  color: #03024f;
+  color: #5b0b83;
   text-align: center;
   font-family: "Darker Grotesque", sans-serif;
   font-size: 25px;
@@ -264,7 +269,7 @@
   transition: all 0.8s ease;
 }
 .botonMain:hover {
-  background-color: #03024f;
+  background-color: #5b0b83;
   color: #efefef;
 }
 
@@ -274,7 +279,7 @@
   width: auto;
   background-color: #efefef;
   border-radius: 50px;
-  color: #03024f;
+  color: #5b0b83;
   text-align: center;
   font-family: "Darker Grotesque", sans-serif;
   font-size: 25px;
@@ -282,7 +287,7 @@
   transition: all 0.8s ease;
 }
 .botonComprar:hover {
-  background-color: #03024f;
+  background-color: #5b0b83;
   color: #efefef;
 }
 
