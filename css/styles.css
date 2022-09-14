@@ -1,18 +1,13 @@
-.indexMain3, .navFooter ul {
+.indexMain3, .indexMain2 div, .navFooter ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.producto, .tiendaProducto, .datos, .formContacto form, .indexMain1 div {
+.producto, .tiendaProducto, .datos, .formContacto form, .indexMain1 div, .footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-* {
-  padding: 0;
-  margin: 0;
 }
 
 /*ICONOS */
@@ -31,7 +26,7 @@
   font-family: "Darker Grotesque", sans-serif;
   font-size: 20px;
   list-style-type: none;
-  color: #45024f;
+  color: #03024f;
 }
 .navbar-nav li a span {
   margin-top: 9px;
@@ -42,28 +37,22 @@
 
 /*HEADER*/
 /* FOOTER */
-.footer {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-}
-
 .encabezadoFooter {
+  margin-top: 20px;
   padding: 20px;
   font-size: 25px;
   font-family: "Darker Grotesque", sans-serif;
 }
 
 .navFooter ul {
-  flex-wrap: nowrap;
-  align-items: center;
   list-style-type: none;
+  margin-right: 30px;
 }
 
 .navFooter-item a img {
   height: 40px;
   width: 40px;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 5px 0px 5px;
   transition: all 0.2s;
 }
 .navFooter-item a img:hover {
@@ -88,9 +77,8 @@
 }
 
 .indexMain2 div {
-  display: flex;
-  flex-wrap: nowrap;
-  padding: 50px 50px 50px 50px;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .indexMain3 {
@@ -102,7 +90,7 @@
 .titulos {
   font-family: "Darker Grotesque", sans-serif;
   padding: 20px;
-  width: 100%;
+  width: auto;
   text-align: center;
 }
 
@@ -172,36 +160,36 @@
 
 ::-moz-placeholder {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #45024f;
+  color: #03024f;
   font-size: 18px;
 }
 
 :-ms-input-placeholder {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #45024f;
+  color: #03024f;
   font-size: 18px;
 }
 
 ::placeholder {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #45024f;
+  color: #03024f;
   font-size: 18px;
 }
 
 @media screen and (max-width: 768px) {
   ::-moz-placeholder {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    color: #45024f;
+    color: #03024f;
     font-size: 15px;
   }
   :-ms-input-placeholder {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    color: #45024f;
+    color: #03024f;
     font-size: 15px;
   }
   ::placeholder {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    color: #45024f;
+    color: #03024f;
     font-size: 15px;
   }
 }
@@ -219,7 +207,7 @@
   font-family: "Darker Grotesque", sans-serif;
   font-size: 22px;
   text-decoration: none;
-  color: #45024f;
+  color: #03024f;
   text-align: left;
 }
 .tiendaProducto ul li a img {
@@ -250,7 +238,7 @@
   width: 100px;
   background-color: #efefef;
   border-radius: 50px;
-  color: #45024f;
+  color: #03024f;
   text-align: center;
   font-family: "Darker Grotesque", sans-serif;
   font-size: 25px;
@@ -258,7 +246,7 @@
   transition: all 0.8s ease;
 }
 .botonesContacto:hover {
-  background-color: #45024f;
+  background-color: #03024f;
   color: #efefef;
 }
 
@@ -268,7 +256,7 @@
   width: 200px;
   background-color: #efefef;
   border-radius: 50px;
-  color: #45024f;
+  color: #03024f;
   text-align: center;
   font-family: "Darker Grotesque", sans-serif;
   font-size: 25px;
@@ -276,7 +264,7 @@
   transition: all 0.8s ease;
 }
 .botonMain:hover {
-  background-color: #45024f;
+  background-color: #03024f;
   color: #efefef;
 }
 
@@ -286,7 +274,7 @@
   width: auto;
   background-color: #efefef;
   border-radius: 50px;
-  color: #45024f;
+  color: #03024f;
   text-align: center;
   font-family: "Darker Grotesque", sans-serif;
   font-size: 25px;
@@ -294,6 +282,17 @@
   transition: all 0.8s ease;
 }
 .botonComprar:hover {
-  background-color: #45024f;
+  background-color: #03024f;
   color: #efefef;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
 }/*# sourceMappingURL=styles.css.map */
