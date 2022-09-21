@@ -227,6 +227,11 @@
   font-size: 20px;
 }
 
+@media screen and (max-width: 767px) {
+  .tiendaProducto ul li {
+    margin-left: -10px;
+  }
+}
 /* MAIN DE TIENDA */
 /* MAIN DE PRODUCTOS */
 .producto {
